@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 
 
-client = MongoClient('mongodb+srv://vedan987:Vedanshu1502@cluster-books.jailwop.mongodb.net/?retryWrites=true&w=majority')
+client = MongoClient('mongodb+srv://vedan987:<passwd>@cluster-books.jailwop.mongodb.net/?retryWrites=true&w=majority')
 db = client['Books-Data']
 collection = db['Inventory']
 
